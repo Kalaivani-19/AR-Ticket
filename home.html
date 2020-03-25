@@ -8,7 +8,12 @@
     <title>AR Ticket</title>
 </head>
 
+
+
 <body style='margin : 0px; overflow: hidden; '>
+    <div id="profile" style=" width: 300px; height: 300px;  position: absolute; top: 00px; left: 0;margin-left: 20px;margin-top: 20px;">
+        <img src="./images/logo_wo_text.svg" width="100px">
+    </div>
     <a-scene embedded arjs='debugUIEnabled: false;'>
         <a-marker preset="hiro">
 
@@ -18,6 +23,7 @@
             <a-plane material='color: #123456' position='0 0.5 0' rotation="-90 0 0" opacity="50">
                 <h1>Hi</h1>
             </a-plane>-->
+
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
