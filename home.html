@@ -15,15 +15,15 @@
         <img src="./images/logo_wo_text.svg" width="100px">
     </div>
     <a-scene embedded arjs='debugUIEnabled: false;'>
-        <a-marker preset="hiro">
 
+        <!--marker 1-->
+        <a-marker type='barcode' value='5'>
             <a-image src="./images/card5.png" width="3" height="1.5" position='0 0 0' rotation="-90 0 0"></a-image>
+        </a-marker>
 
-            <!--
-            <a-plane material='color: #123456' position='0 0.5 0' rotation="-90 0 0" opacity="50">
-                <h1>Hi</h1>
-            </a-plane>-->
-
+        <!--marker 2-->
+        <a-marker preset="hiro">
+            <a-image src="./images/card5.png" width="3" height="1.5" position='0 0 0' rotation="-90 0 0"></a-image>
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
