@@ -78,8 +78,14 @@ for i in range(0,10):
 
 ## Screenshots on Different devices 📱
 
-<span><img src = "images\Screenshot-Mobile-1.png" width="40%"/> <img src = "images\pixel2xl-mockup.png" width="31%"/> </span>
+<div style="position:center;">
+<span>
+<img src = "images\Screenshot-Mobile-1.png" width="40%"/> 
+<img src = "images\pixel2xl-mockup.png" width="31%"/>
+<img src = "images\jioPhone2_screenshot.png" width="25%"/>
+</span>
 
 <span>
     <img src = "images\BrowserScreenshot.png" width="100%"/>
 </span> 
+</div>
