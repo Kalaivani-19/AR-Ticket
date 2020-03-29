@@ -4,6 +4,17 @@
 
 An augmented reality application that reads a QR code with an Ar.js code embedded in it and displays the information in Augmented Reality
 
+## Built Using
+<img src = "images\Bootstrap_logo.png" width="20%"/>
+
+<img src = "images\HTML5_Logo_512.png" width="20%"/>
+
+<img src = "images\CSS3_logo.svg" width="15%"/>
+
+<img src = "images\javascript-logo.png" width="15%"/>
+
+
+
 ## Ar.js
 <img src = "images\arjs_logo.png" width="20%"/>
 
