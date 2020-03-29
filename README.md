@@ -4,7 +4,7 @@
 
 ### An AR ( Augmented Reality ) Web application that reads a AR code embedded over native ticket and displays the information in AR ( Augmented Reality ).
 
->" By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest. " - Confucius
+`❛❛ By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.❞ - Confucius`
 
 -------------------
 
@@ -45,9 +45,9 @@ Please follow the simple steps to use Ar Ticket in your mobile:
 
 <img src="images\ticTestPng.png"/>
 
-- A image shown above is a Sample of a single ticket with the AR Code in it.
+- A image shown above is a Sample of a ✈️ Flight  Ticket 🎫 with the AR Code in it.
 
-- Use the mobile phone's native QR Scanner application or Just download one from the App Store or Play Store for your Mobile. 
+- Use the mobile phone's native QR Scanner application or Just download one from the App Store or Play Store for your Mobile. Link of the **QR Code Scanner** Application are given below to their marketplaces.
 
 <a href="https://play.google.com/store/apps/details?id=com.gamma.scan&hl=en_IN" rel="some text">
 <img src="https://engagingcongress.org/images/Get_it_on_Google_play.svg.png" width="13%"/>
@@ -56,7 +56,9 @@ Please follow the simple steps to use Ar Ticket in your mobile:
 <img src="https://developer.apple.com/assets/elements/icons/download-on-the-app-store/download-on-the-app-store.svg" width="12%"/>
 </a>
 
-- A Webpage opens 
+- A Webpage opens showing the overview of the application clicking on the Get Started Button redirects you to a login page where user is prompted to login.
+
+- As soon as the provided credentials are validated then the user is redirected to a 
 
 ```python
 print("hi")
@@ -76,8 +78,8 @@ for i in range(0,10):
 
 ## Screenshots on Different devices 📱
 
-<img src = "images\Screenshot-Mobile-1.png" width="40%"/> 
+<span><img src = "images\Screenshot-Mobile-1.png" width="40%"/> <img src = "images\pixel2xl-mockup.png" width="31%"/> </span>
 
-<img src = "images\pixel2xl-mockup.png" width="31%"/>
-
-<img src = "images\BrowserScreenshot.png" width="100%"/>
+<span>
+    <img src = "images\BrowserScreenshot.png" width="100%"/>
+</span> 
