@@ -4,7 +4,18 @@
 
 An augmented reality application that reads a QR code with an Ar.js code embedded in it and displays the information in Augmented Reality
 
->bloc
+## Ar.js
+<img src = "images\arjs_logo.png" width="20%"/>
+
+AR.js is a lightweight library for Augmented Reality on the Web, coming with features like Marker based and Location based AR.
+
+## Get Started 
+Please follow the simple steps to use Ar Ticket in your mobile:
+
+- Use the Printable Ticket Template Sheet in the following link to [download]().
+- Open the PDF file 
+-
+-
 
 ```python
 print("hi")
@@ -26,8 +37,7 @@ cout<<"Hello World"
 - [ ] This is an incomplete item
 
 ## Mono Matrix Barcode Marker
-[Google©](www.google.com)
 
-[Mono_Matrix_Barcodes](https://github.com/artoolkit/ARToolKit5/tree/master/doc/patterns/Matrix%20code%203x3%20(72dpi))
+- To use your own marker in the project you could create [Mono_Matrix_Barcodes](https://github.com/artoolkit/ARToolKit5/tree/master/doc/patterns/Matrix%20code%203x3%20(72dpi)) So use this. 
 
 
