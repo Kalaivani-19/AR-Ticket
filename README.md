@@ -45,6 +45,13 @@ Please follow the simple steps to use Ar Ticket in your mobile:
 - A image shown above is a Sample of a single ticket with the AR Code in it.
 
 - Use the mobile phone's native QR Scanner application or Just download one from the App Store or Play Store for your Mobile. 
+<a href="https://play.google.com/store/apps/details?id=com.gamma.scan&hl=en_IN" rel="some text">
+<img src="https://engagingcongress.org/images/Get_it_on_Google_play.svg.png" width="30%"/>
+</a> |
+<a href="https://apps.apple.com/us/app/qr-code-reader/id1200318119">
+<img src="https://developer.apple.com/assets/elements/icons/download-on-the-app-store/download-on-the-app-store.svg" width="30%"/>
+</a>
+
 
 - 
 
