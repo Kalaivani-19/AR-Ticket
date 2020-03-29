@@ -2,7 +2,7 @@
 
 <img src = "images/repo card Ar Ticket.png"/>
 
-### An augmented reality application that reads a QR code with an Ar.js code embedded in it and displays the information in Augmented Reality
+### An AR ( Augmented Reality ) Web application that reads a AR code embedded over native ticket and displays the information in AR ( Augmented Reality ).
 
 -------------------
 ##  Built Using ⚙️
@@ -45,15 +45,15 @@ Please follow the simple steps to use Ar Ticket in your mobile:
 - A image shown above is a Sample of a single ticket with the AR Code in it.
 
 - Use the mobile phone's native QR Scanner application or Just download one from the App Store or Play Store for your Mobile. 
+
 <a href="https://play.google.com/store/apps/details?id=com.gamma.scan&hl=en_IN" rel="some text">
-<img src="https://engagingcongress.org/images/Get_it_on_Google_play.svg.png" width="30%"/>
-</a> |
+<img src="https://engagingcongress.org/images/Get_it_on_Google_play.svg.png" width="33%"/>
+</a>
 <a href="https://apps.apple.com/us/app/qr-code-reader/id1200318119">
 <img src="https://developer.apple.com/assets/elements/icons/download-on-the-app-store/download-on-the-app-store.svg" width="30%"/>
 </a>
 
-
-- 
+- hhhhhhhhhhh
 
 ```python
 print("hi")
@@ -73,13 +73,10 @@ for i in range(0,10):
 
 ## Screenshots on Different devices 📱
 
-### IPhone X
 <img src = "images\Screenshot-Mobile-1.png" width="40%"/> 
 
-### Pixel 2 XL
-<img src = "images\pixel2xl-mockup.png" width="30%"/>
+<img src = "images\pixel2xl-mockup.png" width="31%"/>
 
-### Browser
 <img src = "images\BrowserScreenshot.png" width="100%"/>
 
 -------------------
