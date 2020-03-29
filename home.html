@@ -8,13 +8,11 @@
     <title>AR Ticket</title>
 </head>
 
-
-
 <body style='margin : 0px; overflow: hidden; '>
     <div id="profile" style=" width: 300px; height: 300px;  position: absolute; top: 00px; left: 0;margin-left: 20px;margin-top: 20px;">
         <img src="./images/logo_wo_text.svg" width="100px">
     </div>
-    <a-scene embedded arjs='debugUIEnabled: false;'>
+    <a-scene embedded arjs='debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 
         <!--marker 1-->
         <a-marker type='barcode' value='5'>
@@ -22,10 +20,11 @@
         </a-marker>
 
         <!--marker 2-->
-        <a-marker preset="hiro">
+        <a-marker type='barcode' value=''>
             <a-image src="./images/card5.png" width="3" height="1.5" position='0 0 0' rotation="-90 0 0"></a-image>
         </a-marker>
         <a-entity camera></a-entity>
+
     </a-scene>
 </body>
 
