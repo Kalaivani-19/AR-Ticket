@@ -20,10 +20,24 @@
         </a-marker>
 
         <!--marker 2-->
+        <!--
         <a-marker type='barcode' value='6'>
             <a-image src="./images/card5.png" width="3" height="1.5" position='0 0 0' rotation="-90 0 0"></a-image>
+        </a-marker>-->
+
+        <!--marker 3-->
+        <a-marker type='barcode' value='6'>
+            <!-- define your gltf asset -->
+            <a-assets>
+                <a-asset-item id="layout3D" src="assets\glTFModelUI.glb"></a-asset-item>
+            </a-assets>
+            <!-- use your gltf model -->
+            <a-entity gltf-model="##layout3D"></a-entity>
         </a-marker>
+
         <a-entity camera></a-entity>
+
+
 
     </a-scene>
 </body>
