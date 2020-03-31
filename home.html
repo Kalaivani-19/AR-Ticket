@@ -14,26 +14,52 @@
     </div>
     <a-scene embedded arjs='debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;' loading-screen="enabled: false;">
 
-        <!-- define your gltf asset 
-        <a-assets>
-            <a-asset-item id="ui3D" src="assets\ui3Dmodel.gltf"></a-asset-item>
-            <a-asset-item id="uiImg" src="images\ARTicketCardTemplate.svg"></a-asset-item>
-        </a-assets>-->
+        <!--Default Code for Recovery State-->
 
-        <!--marker 1-->
+        <a-marker preset="hiro">
+            <a-box position='0 0.5 0' material='color: red;'></a-box>
+        </a-marker>
+
+        <!--Default Code for Recovery State-->
+
+        <!--marker 1
         <a-marker-camera type=' barcode ' value='18 '>
             <a-image src="images\ARTicketCardTemplate.svg" width="300px" height="1.5" position='0 0 0 ' rotation="-90 0 0"></a-image>
-        </a-marker-camera>
+        </a-marker-camera>-->
 
-        <!--
-
-        <a-marker-camera type='barcode ' value='18 '>
-         
-            <a-image src="images\ARTicketCardTemplate.svg" width="300px" height="1.5" position='0 0 0 ' rotation="-90 0 0"></a-image>
-        </a-marker-camera>
-        -->
         <a-entity camera></a-entity>
     </a-scene>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    define your gltf asset 
+        <a-assets>
+            <a-asset-item id="ui3D" src="assets\ui3Dmodel.gltf"></a-asset-item>
+            <a-asset-item id="uiImg" src="images\ARTicketCardTemplate.svg"></a-asset-item>
+        </a-assets>
+
+
+        <a-marker-camera type='barcode ' value='18 '>
+         
+            <a-image src="images\ARTicketCardTemplate.svg" width="300px" height="1.5" position='0 0 0 ' rotation="-90 0 0"></a-image>
+        </a-marker-camera>
+-->
