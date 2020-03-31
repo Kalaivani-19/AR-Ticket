@@ -10,37 +10,29 @@
 
 <body style='margin : 0px; overflow: hidden; '>
     <div id="profile" style=" width: 300px; height: 300px;  position: absolute; top: 0px; left: 0;margin-left: 20px;margin-top: 20px;">
-        <img src="images\logoForAppHtml.svg" width="100px">
+        <img src="images\logoForAppHtml.svg" width="300px">
     </div>
-    <a-scene embedded arjs='debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+    <a-scene embedded arjs='debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;' loading-screen="enabled: false;">
+
+        <!-- define your gltf asset 
+        <a-assets>
+            <a-asset-item id="ui3D" src="assets\ui3Dmodel.gltf"></a-asset-item>
+            <a-asset-item id="uiImg" src="images\ARTicketCardTemplate.svg"></a-asset-item>
+        </a-assets>-->
 
         <!--marker 1-->
-        <a-marker type='barcode' value='18'>
-            <a-image src="images\cardInfoVal18.svg" width="3" height="1.5" position='0 0 0' rotation="-90 0 0"></a-image>
-        </a-marker>
+        <a-marker-camera type=' barcode ' value='18 '>
+            <a-image src="images\ARTicketCardTemplate.svg" width="300px" height="1.5" position='0 0 0 ' rotation="-90 0 0"></a-image>
+        </a-marker-camera>
 
-
-        <!--marker 2-->
         <!--
-        <a-marker type='barcode' value='6'>
-            <a-image src="./images/card5.png" width="3" height="1.5" position='0 0 0' rotation="-90 0 0"></a-image>
-        </a-marker>-->
 
-        <!--marker 3-->
-        <a-marker type='barcode' value='6'>
-            <!-- define your gltf asset -->
-            <a-assets>
-                <a-asset-item id="layout3D" src="assets\ui3Dmodel.gltf"></a-asset-item>
-                <ion-icon name="arrow-back"></ion-icon>
-            </a-assets>
-            <!-- use your gltf model -->
-            <a-entity gltf-model="##layout3D"></a-entity>
-        </a-marker>
-
+        <a-marker-camera type='barcode ' value='18 '>
+         
+            <a-image src="images\ARTicketCardTemplate.svg" width="300px" height="1.5" position='0 0 0 ' rotation="-90 0 0"></a-image>
+        </a-marker-camera>
+        -->
         <a-entity camera></a-entity>
-
-
-
     </a-scene>
 </body>
 
