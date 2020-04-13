@@ -41,7 +41,7 @@ AR.js is a lightweight library for Augmented Reality on the Web, coming with fea
 ## ⚡️ Get Started ⚡️ 
 Please follow the simple steps to use Ar Ticket in your mobile:
 
-- Use the Printable Ticket Template Sheet in the following link to [download]().
+- Use the Printable Ticket Template Sheet in the following link to [download](https://kalaivani-19.github.io/AR-Ticket/Addtional%20Assets/TicketSheetTemplate.pdf).
 
 <img src="images\ticTestPng.png"/>
 
