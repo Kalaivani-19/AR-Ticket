@@ -1,1 +1,3 @@
 theme: jekyll-theme-cayman
+- name: Send Push Notification
+  uses: techulus/push-github-action@v0.0.2
