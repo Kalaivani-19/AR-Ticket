@@ -1,6 +1,6 @@
 # **AR-Ticket**
 
-<img src = "images/repo card Ar Ticket.png"/>
+<img src = "images/repo card AR Ticket.png"/>
 
 ### An AR ( Augmented Reality ) Web application that reads a AR code embedded over native ticket and displays the information in AR ( Augmented Reality ).
 
@@ -38,7 +38,7 @@ AR.js is a lightweight library for Augmented Reality on the Web, coming with fea
 
 -------------------
 
-## ⚡️ Get Started ⚡️ 
+## ⚡️ Get Started ⚡️
 Please follow the simple steps to use Ar Ticket in your mobile:
 
 - Use the Printable Ticket Template Sheet in the following link to [download](https://kalaivani-19.github.io/AR-Ticket/Addtional%20Assets/TicketSheetTemplate.pdf).
@@ -58,7 +58,7 @@ Please follow the simple steps to use Ar Ticket in your mobile:
 
 - A Webpage opens showing the overview of the application clicking on the Get Started Button redirects you to a login page where user is prompted to login.
 
-- As soon as the provided credentials are validated then the user is redirected to a 
+- As soon as the provided credentials are validated then the user is redirected to a
 
 ```python
 print("hi")
@@ -69,7 +69,7 @@ for i in range(0,10):
 -------------------
 ## Customize the Project 🌈
 
-- Clone the project repository using 
+- Clone the project repository using
 > ```git clone ```
 
 - To use your own marker in the project you could create [Mono_Matrix_Barcodes](https://github.com/artoolkit/ARToolKit5/tree/master/doc/patterns/Matrix%20code%203x3%20(72dpi)) So use this.
@@ -80,12 +80,12 @@ for i in range(0,10):
 
 <div style="position:center;">
 <span>
-<img src = "images\Screenshot-Mobile-1.png" width="40%"/> 
+<img src = "images\Screenshot-Mobile-1.png" width="40%"/>
 <img src = "images\pixel2xl-mockup.png" width="30%"/>
 <img src = "images\jioPhone2_screenshot.png" width="25%"/>
 </span>
 
 <span>
     <img src = "images\BrowserScreenshot.png" width="100%"/>
-</span> 
+</span>
 </div>

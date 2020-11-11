@@ -6,34 +6,35 @@
     <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/jeromeetienne/AR.js/2.2.2/aframe/build/aframe-ar.js"></script>
     <title>AR Ticket</title>
-    <mar </head>
+</head>
 
-        <body style='margin : 0px; overflow: hidden; '>
-            <div id="navbar" style=" width: 300px; height: 300px;  position: absolute; top: 0px; left: 0;margin-left: 20px;margin-top: 20px;">
-                <img src="images\logoForAppHtml.svg" width="300px" style="margin-left:100px;">
-            </div>
-            <a-scene embedded arjs='debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;' loading-screen="enabled: false;">
+<body style='margin : 0px; overflow: hidden; '>
+    <div id="navbar" style=" width: 300px; height: 300px;  position: absolute; top: 0px; left: 0;margin-left: 20px;margin-top: 20px;">
+        <img src="images\logoForAppHtml.svg" width="300px" style="margin-left:100px;">
+    </div>
 
-                <!--Default Code for Recovery State-->
+    <a-scene embedded arjs='debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;' loading-screen="enabled: false;">
 
-                <a-marker type='barcode' value='18'>
-                    <a-image src="images\ARTicketCardTemplate.svg" width="2px" height="1" position='0 0.5 0 ' rotation="-90 0 0"></a-image>
-                </a-marker>
+        <!--Default Code for Recovery State-->
 
-                <a-marker type='barcode' value='6'>
-                    <a-image src="images\Priya_Ticket_Card_Template.png" width="2px" height="1" position='0 0.5 0 ' rotation="-90 0 0"></a-image>
-                </a-marker>
+        <a-marker type='barcode' value='18'>
+            <a-image src="images\Kalai_AR_Ticket_info.svg" width="4px" height="2px" position='0 0.5 0 ' rotation="-90 0 0"></a-image>
+        </a-marker>
 
-                <!--Default Code for Recovery State-->
+        <a-marker type='barcode' value='6'>
+            <a-image src="images\Priya_AR_Ticket_info.svg" width="4px" height="2px" position='0 0.5 0 ' rotation="-90 0 0"></a-image>
+        </a-marker>
 
-                <!--marker 1
+        <!--Default Code for Recovery State-->
+
+        <!--marker 1
         <a-marker-camera type=' barcode ' value='18 '>
             <a-image src="images\ARTicketCardTemplate.svg" width="300px" height="1.5" position='0 0 0 ' rotation="-90 0 0"></a-image>
         </a-marker-camera>-->
 
-                <a-entity camera></a-entity>
-            </a-scene>
-        </body>
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
 
 </html>
 
